@@ -16,6 +16,7 @@ header {
 nav {
   height: 70px;
   align-items: center;
+  margin: 0;
 }
 
 nav > ul {
@@ -83,7 +84,7 @@ h3#eslogan {
   font-size: 2em;
 }
 
-div#quienesSomos, div#formaJuridica, div#organizacion {
+div#quienesSomos, div#formaJuridica, div#organizacion, div#aplicacion {
   color: white;
   font-size: 1.5em;
   display: flex;
@@ -121,4 +122,14 @@ div#imagenes {
   justify-content: center;
   align-items: center;
   margin-bottom: 2%;
+}
+
+div#aplicacion {
+  background-image: url("../img/gympad02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  text-align: left;
 }
