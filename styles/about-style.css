@@ -83,7 +83,7 @@ h3#eslogan {
   font-size: 2em;
 }
 
-div#quienesSomos {
+div#quienesSomos, div#formaJuridica, div#organizacion {
   color: white;
   font-size: 1.5em;
   display: flex;
