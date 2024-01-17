@@ -1,0 +1,113 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0e1540;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+nav {
+  height: 70px;
+  align-items: center;
+}
+
+nav > ul {
+  margin: 0%;
+  height: 100%;
+  background-color: black;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+div#introduccion {
+  height: 750px;
+  color: rgb(32, 175, 214);
+  background-image: url('../img/introduction-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div#introduccion > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1#bienvenida {
+  font-size: 3em;
+}
+
+h3#eslogan {
+  font-size: 2em;
+}
+
+div#galeriaImagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+div.tarjeta {
+  color: white;
+  width: 100%;
+  height: 310px;
+  padding: 2%;
+  transition: 1s;
+}
+
+div.tarjeta:hover {
+  width: 100%;
+  height: 310px;
+  padding: 2%;
+  font-size: 1.5em;
+}
+
+div#inventario {
+  background-image: url('../img/material.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+div#pruebaGympad {
+  background-image: url('../img/gympad01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+div#compite {
+  background-image: url('../img/ranking.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+div.hover {
+  width: 100%;
+  height: 310px;
+  padding: 2%;
+}
