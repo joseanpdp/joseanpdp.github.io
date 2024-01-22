@@ -62,7 +62,7 @@ div#introduccion {
   background-image: url('../img/introduction-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: row;
