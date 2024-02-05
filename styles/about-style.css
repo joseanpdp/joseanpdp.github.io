@@ -124,7 +124,7 @@ div#imagenes {
   margin-bottom: 2%;
 }
 
-div#aplicacion {
+div#aplicacion, div#contactos {
   background-image: url("../img/gympad02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
