@@ -62,7 +62,7 @@ div#introduccion {
   background-image: url('../img/introduction-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -110,21 +110,21 @@ div#inventario {
   background-image: url('../img/material.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 div#pruebaGympad {
   background-image: url('../img/gympad01.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 div#compite {
   background-image: url('../img/ranking.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 div.hover {
